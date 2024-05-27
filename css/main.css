@@ -1,0 +1,36 @@
+@import url("./sign-up-in-style.css");
+@import url("./header.css");
+@import url("./landing-section.css");
+@import url("./footer.css");
+@import url("./profile.css");
+@import url("./tasks.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #575757;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #f3f5f9;
+  height: 100vh;
+  position: relative;
+}
+
+i.reload-icon {
+  color: white;
+  display: inline-block !important;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
